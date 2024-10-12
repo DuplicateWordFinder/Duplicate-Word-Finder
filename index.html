@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhance Your Writing with a Free Online Duplicate Word Finder Tool </title>
+    <meta name="description" content="Duplicate Word Finder tool to eliminate repetitive words in your writing. Improve clarity and readability instantly by identifying and correcting duplicates.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Duplicate Word Finder</h1>
+      </header>
+      <main>
+        <div id="actions">
+          <div>
+            <button id="copy" class="pure-material-button-contained">Copy</button>
+            <button id="clear" class="pure-material-button-text">Clear</button>
+          </div>
+
+          <label class="pure-material-switch">
+                  <input id="spellcheck" type="checkbox" checked>
+                  <span>Spell Check</span>
+              </label>
+        </div>
+        <div id="options">
+          <label class="pure-material-slider">
+            <input id="length" type="range" min="1" max="10" value="4">
+            <span>Minimum Word Length: <output>4</output></span>
+          </label>
+        </div>
+        <hr>
+        <div id="text">
+          <textarea>
+            A Duplicate Word Finder is an online utility designed to detect repeated words within any text. Users can easily paste or type their content into the tool, which will then highlight duplicate words in real-time. This functionality not only saves time but also enhances the overall quality of your writing by improving readability and coherence.
+
+            Incorporating a Duplicate Word Finder into your writing routine can significantly enhance the quality of your work. By eliminating repetitive language, you can ensure that your writing remains engaging and effective. Whether you're drafting emails, articles, or essays, this tool is an invaluable resource for any writer aiming for clarity and precision.
+
+
+      </textarea>
+          <div id="highlights"></div>
+        </div>
+        <ol id="list"></ol>
+      </main>
+
+      <div>
+         <a style="font-size: 21px;" href="https://duplicatewordfinder.com/" target="_blank" >Duplicate word finder online tool</a>
+      </div>
+
+
+<div class="footer">&copy;<span id="year"> </span><span> Duplicate Word Finder. All rights reserved.</span></div>
+
+      <template>
+          <li class="item">
+              <label>
+                  <input class="hidden" type="checkbox">
+                  <span class="count"></span>
+                  <span class="word"></span>
+              </label>
+          </li>
+      </template>
+
+      <script src="script.js"></script>
+</body>
+</html>
